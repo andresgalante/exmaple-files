@@ -1,0 +1,37 @@
+
+.relative{
+  position: relative;
+  
+/*   Gives some color and size */
+  height: 200px;
+  width: 200px;
+  background: red;
+  margin-bottom: 100px;
+}
+
+
+.absolute{
+  position:  absolute;
+  right: 0;
+  bottom: 0;
+
+/*   Gives some color and size */
+  height: 100px;
+  width: 100px;
+  background: yellow;
+}
+
+h3{
+  background: blue !important;
+}
+
+div h3{
+  background: yellow;
+}
+
+h1{
+  background: orange;
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid blue;
+}
